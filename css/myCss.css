@@ -1,0 +1,222 @@
+body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  	}
+	  h1{
+		color: #474e5d;
+	  }
+	  h2{
+		color: #474e5d; 
+	  }
+	  h3{
+		color: #474e5d; 
+	  }
+	  h4{
+		color: #474e5d; 
+	  }
+  p {
+      font-size: 16px;
+    }
+  .margin {
+      margin-bottom: 45px;
+        color: #474e5d;
+  }
+  .nav-pills{
+	background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 20px;
+      padding-bottom: 30px;
+  }
+  .navbar {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+		#navBarIcon {
+			max-width: 50px;
+			margin: 1% auto;
+		}
+		.carousel-inner > .item > img {
+  			width: 2560px;
+  			height: 590px;
+		}
+
+		#icon{
+			max-width: 200px;
+			margin: 1% auto;
+		}
+		.container {
+			margin: 4% auto;
+		}
+		#aboutMe {
+			padding: 10px;
+		}
+		#projects {
+			padding: 100px;
+			background-color: #ffffff;
+		}
+		#workExp {
+			padding: 10px;
+			background-color: #ffffff; 
+		}
+		footer {
+			width: 100%;
+			background-color: #1abc9c;
+			padding: 0.5%;
+			color: #FFF;
+		}
+		.fa {
+			padding: 15px;
+			font-size: 30px;
+			color: #FFF;
+		}
+		.fa:hover{
+			color:#d5d5d5;
+			text-decoration: none;
+		}
+		.divider {
+  			height: 2px;
+  			width:100%;
+  			display:block;
+  			margin: 9px 0;
+  			overflow: hidden;
+  			background-color: #256DCF;
+		}
+		.row{
+			margin: 9px 0;
+		}
+		@media (max-width: 600px){
+			.fa{
+				font-size: 20px;
+				padding: 10px;
+			}
+		}
+		@media (max-width: 600px){
+			.carousel-caption {
+				display: none;
+			}
+			#icon{
+				max-width: 150px;
+			}
+			h2{
+				font-size: 1.9em;
+			}
+		}
+		.colorChange{
+			color: #474e5d; 
+        }
+        .thColorChange{
+            color: #474e5d; 
+        }
+
+        .tdColorChange{
+            color: #474e5d; 
+        }
+        .secondarySchool{
+            background-color: #474e5d; /* Dark Blue */
+            color: #ffffff;
+		}
+		.educationTitle{
+			color: #ffffff;
+		}
+		.ITTTitle{
+			color: #ffffff;
+			padding: 20px;
+		}
+		.TCSTitle{
+			color: #ffffff;
+			padding: 20px;
+		}
+		.educationTitle{
+			color: #23282d;
+			padding: 20px;
+		}
+		.captionContainer{
+			color: #ffffff;
+		}
+
+		.DEASPTitle{
+			color: #23282d;
+			padding: 20px;
+		}
+		.XMusicTitle{
+			color: #23282d;
+			padding: 20px;
+		}
+		.deaspPara{
+			color: #23282d;
+		}
+		.xmusicPara{
+			color: #23282d;
+		}
+
+
+		#TCSimg:hover {
+			/* Start the shake animation and make the animation last for 0.5 seconds */
+			animation: shake 0.5s; 
+		  
+			/* When the animation is finished, start again */
+			animation-iteration-count: infinite; 
+		  }
+		  
+		  @keyframes shake {
+			0% { transform: translate(1px, 1px) rotate(0deg); }
+			10% { transform: translate(-1px, -2px) rotate(-1deg); }
+			20% { transform: translate(-3px, 0px) rotate(1deg); }
+			30% { transform: translate(3px, 2px) rotate(0deg); }
+			40% { transform: translate(1px, -1px) rotate(1deg); }
+			50% { transform: translate(-1px, 2px) rotate(-1deg); }
+			60% { transform: translate(-3px, 1px) rotate(0deg); }
+			70% { transform: translate(3px, 1px) rotate(-1deg); }
+			80% { transform: translate(-1px, -1px) rotate(1deg); }
+			90% { transform: translate(1px, 2px) rotate(0deg); }
+			100% { transform: translate(1px, -2px) rotate(-1deg); }
+		  }
+
+		  #ittImg:hover {
+			/* Start the shake animation and make the animation last for 0.5 seconds */
+			animation: shake 0.5s; 
+		  
+			/* When the animation is finished, start again */
+			animation-iteration-count: infinite; 
+		  }
+		  
+		  @keyframes shake {
+			0% { transform: translate(1px, 1px) rotate(0deg); }
+			10% { transform: translate(-1px, -2px) rotate(-1deg); }
+			20% { transform: translate(-3px, 0px) rotate(1deg); }
+			30% { transform: translate(3px, 2px) rotate(0deg); }
+			40% { transform: translate(1px, -1px) rotate(1deg); }
+			50% { transform: translate(-1px, 2px) rotate(-1deg); }
+			60% { transform: translate(-3px, 1px) rotate(0deg); }
+			70% { transform: translate(3px, 1px) rotate(-1deg); }
+			80% { transform: translate(-1px, -1px) rotate(1deg); }
+			90% { transform: translate(1px, 2px) rotate(0deg); }
+			100% { transform: translate(1px, -2px) rotate(-1deg); }
+		  }
