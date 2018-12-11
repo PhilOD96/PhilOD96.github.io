@@ -11,6 +11,7 @@
 	</head>
 
 	<body>
+		
 
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -72,7 +73,7 @@
 					  <div class="row">
 						<div class="col-sm-4">
 								<p>After finishing the Leaving Cert my friends and I began travelling around Europe for thirteen weeks. </p> 
-						  <img src="images/me.JPG" class="img-responsive margin" style="width:100%" alt="Image">
+						  <img src="images/me.JPG" class="img-responsive margin" style="width:100%" alt="meImage">
 						</div>
 						<div class="col-sm-4"> 
 						  <p>We visited eight different countries
@@ -299,11 +300,25 @@
 					<div class="modal fade" id="myModal" role="dialog">
 						<div class="modal-dialog">
 							<div class="modal-content">
-								<form action="https://formspree.io/philipodonovan3@gmail.com" method="POST">
-									<input type="text" name="name">
-									<input type="email" name="_replyto">
-									<input type="submit" value="Send">
-								  </form>
+									<form action="https://formspree.io/philipodonovan3@gmail.com" method="POST" enctype="text/plain">
+										<div class="form-group">
+										<input class="form-control" type="text" name="Name" placeholder="Name" required="">
+										</div>
+										<div class="form-group">
+										<input class="form-control" type="text" name="_replyto" placeholder="Email">
+										</div>
+										<div class="form-group">
+										<input class="form-control" type="text" name="message" placeholder="Subject" placeholder="Subject" />
+										</div>
+										<div class="form-group">
+										<textarea id="_subject" class="form-control" name="message" cols="30" rows="7" placeholder="Message" maxlength="500"></textarea>
+										</div>
+										<div class="form-group">
+											<input class="btn btn-primary btn-send-message" type="submit" values="Send Message">
+											<input type="hidden" name="_subject" value="Enter Subject">
+											<input type="hidden" name="_next" value="thans.hmtl">
+										</div>
+									  </form>
 							</div>
 						</div>
 					</div>
@@ -574,7 +589,6 @@
 		</div>
 	</div>
 </div>
-
 	</body>
 
 	<footer class="container-fluid text-center">
@@ -606,5 +620,4 @@
 					</div>
 			</div>
 		</footer>
-
 </html>
